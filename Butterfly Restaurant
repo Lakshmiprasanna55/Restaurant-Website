@@ -1,0 +1,341 @@
+#Index.html 
+**********************************************************************
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Butterfly Restaurant</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Reservation.html">Reservation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to Butterfly Restaurant</h1>
+        <p>Delicious food, cozy atmosphere, and great service.</p>
+    </section>
+
+    <img src="C:\Users\tplax\OneDrive\Pictures\Saved Pictures\Butterfly.jpg">
+
+    <footer>
+        <p>&copy; 2024 Butterfly Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+***************************************************************************************************
+
+#Menu.html
+**********
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Butterfly Restaurant</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Reservation.html">Reservation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <h3>Wild Mushroom Cream Soup</h3>
+                <p>A variety of hand picked Mushrooms, cooked to perfection, mixed in with velvety Cream and served with freshlychopped scallions.</p>
+                <span class="price">$10.36</span>
+                <hr>
+                <h3>Chocoholic's Cheesecake</h3>
+                <p>Creamy chocolate cheesecake nested in a dark, moist brownie, sprinkled with chocolate flakes.</p>
+                <span class="price">$11.27</span>
+                <hr>
+                <h3>French Onion Soup</h3>
+                <p>Slow simmered sweet onions, topped with savory swiss cheese and garnished with ceoutons.</p>
+                <span class="price">$7.13</span>
+                <hr>
+                <h3>Mother's Roasted Chicken</h3>
+                <p>Tenderly Roasted Chicken, mouthwatering oven-baked potatoes with rosemary</p>
+                <span class="price">$12.31</span>
+                <hr>
+                <h3>I'm not Hungry Burger</h3>
+                <p>Classic burger with 1 patty in a crispy bun, No fries for you this time.</p>
+                <span class="price">$9.14</span>
+                <hr>
+                <h3>Princess Pancake</h3>
+                <p>A sweet treat for the dieting beauties. Fat-free, dairy-free, gluten eliberated. Actually, it's just a fluffy cloud.</p>
+                <span class="price">$10.35</span>
+                <hr>
+                <h3>I'm not Sure Sandwich</h3>
+                <p>Slow cooked and pulled pork sandwich served with fries and mayo.</p>
+                <span class="price">$8.76</span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Butterfly Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+**************************************************************************************************
+
+#Contact.html
+*************
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Butterfly Restaurant</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Reservation.html">Reservation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: butterflyrestaurant05@gmail.com</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Address: 123 Main St, Hyd, Ind</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Butterfly Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+*******************************************************************************************
+
+#Reservation.html
+*****************
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation - Butterfly Restaurant</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Reservation.html">Reservation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="reservation">
+        <h2>Make a Reservation</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Butterfly Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+*****************************************************************************************
+
+#Styles.css
+***********
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    padding: 15px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-color: #ff9800;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 100%;
+    height: 250px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+.menu h2 {
+    text-align: center;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu-item {
+    background-color: #fff;
+    margin: 15px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 300px;
+    text-align: center;
+}
+
+.menu-item h3 {
+    margin-top: 0;
+}
+
+.price {
+    color: #ff9800;
+    font-weight: bold;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.contact p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+
+.reservation h2 {
+    text-align: center;
+}
+
+.reservation form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.reservation label {
+    margin-bottom: 5px;
+}
+
+.reservation input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.reservation button {
+    padding: 10px;
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.reservation button:hover {
+    background-color: #e68900;
+}
